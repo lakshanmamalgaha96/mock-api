@@ -1,0 +1,109 @@
+{
+  "opportunities": {
+      "action": "string",
+      "data": {
+        "payload": {
+          "impact_levers": [
+            "string"
+          ],
+          "outcomes": [
+            "string"
+          ],
+          "selected_outcome": "string",
+          "bookmarked_opportunities": [
+            {
+              "segment": "string",
+              "lever": "string",
+              "population": 0,
+              "elasticity": 0,
+              "tipping_point": 0,
+              "outcome_variation": {
+                "1.0": 0,
+                "2.0": 0
+              }
+            }
+          ],
+          "opportunities": [
+            {
+              "segment": "Freshman",
+              "lever": "GPA",
+              "population": 500,
+              "elasticity": 9.1,
+              "tipping_point": 1.2,
+              "outcome_variation": {
+                "1.0": 0,
+                "2.0": 0
+              }
+            },
+            {
+              "segment": "Age Quartile 1",
+              "lever": "Engagement",
+              "population": 200,
+              "elasticity": 8.8,
+              "tipping_point": 1.2,
+              "outcome_variation": {
+                "1.0": 0,
+                "2.0": 0
+              }
+            },
+            {
+              "segment": "Age Quartile 4",
+              "lever": "GPA",
+              "population": 300,
+              "elasticity": 7.2,
+              "tipping_point": 1.2,
+              "outcome_variation": {
+                "1.0": 0,
+                "2.0": 0
+              }
+            }
+          ]
+        },
+        "meta": {}
+      },
+      "timestamp": "string",
+      "traceId": "string"
+    },
+  "trends": {
+    "action": "string",
+    "data": {
+      "payload": {
+        "bookmarked_trends": [
+          {
+            "feature": "string",
+            "change_from_last": 0,
+            "trend": {
+              "2016-12-31": 0,
+              "2017-12-31": 0,
+              "2018-12-31": 0
+            }
+          }
+        ],
+        "trends": [
+          {
+            "feature": "GPA",
+            "change_from_last": 7.8,
+            "trend": {
+              "2016-12-31": 0,
+              "2017-12-31": 0,
+              "2018-12-31": 0
+            }
+          },
+          {
+            "feature": "Completion",
+            "change_from_last": 6.2,
+            "trend": {
+              "2016-12-31": 0,
+              "2017-12-31": 0,
+              "2018-12-31": 0
+            }
+          }
+        ]
+      },
+      "meta": {}
+    },
+    "timestamp": "string",
+    "traceId": "string"
+  }
+
+}
